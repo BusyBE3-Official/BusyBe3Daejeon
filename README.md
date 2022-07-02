@@ -1,16 +1,13 @@
-# busybe3daejeon
+# BusyBE3 Daejeon
 
-A new Flutter project.
+대전을 소개하는 관광 모바일 어플리케이션입니다!
 
-## Getting Started
+## 팀원
+- busybe3 : Mobile Developer / Server Developer
+- Yoon Yoon : Server Developer
+- Kim Shin : Designer
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Framework
+- Flutter
+- Firebase
+- Spring / Kotlin
