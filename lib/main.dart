@@ -1,3 +1,4 @@
+import 'package:busybe3daejeon/auth/signin.screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -40,11 +41,19 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void appRouter() async{
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );    
+
+    if (!mounted) return;
+
+    Navigator.push(context, MaterialPageRoute(builder: (context) => const SignInScreen()));
+  }
+
   @override
   void initState() {
-    Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
+    appRouter();
     super.initState();
   }
 
